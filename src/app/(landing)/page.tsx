@@ -12,7 +12,7 @@ import { Icons } from "@/components/icons"
 import { MaxWidthWrapper } from "@/components/max-wdith-wrapper"
 
 const Page = () => {
-  const codeSnippet = `await fetch("http://localhost:3000/api/v1/events", {
+  const codeSnippet = `await fetch("https://pingpanda.onrender.com/api/v1/events", {
   method: "POST",
   body: JSON.stringify({
     category: "sale",
