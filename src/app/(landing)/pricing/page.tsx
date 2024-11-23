@@ -5,7 +5,6 @@ import { MaxWidthWrapper } from "@/components/max-wdith-wrapper"
 
 import { Button } from "@/components/ui/button"
 import { client } from "@/lib/client"
-import { createCheckoutSession } from "@/lib/stripe"
 import { useUser } from "@clerk/nextjs"
 import { useMutation } from "@tanstack/react-query"
 import { CheckIcon } from "lucide-react"
